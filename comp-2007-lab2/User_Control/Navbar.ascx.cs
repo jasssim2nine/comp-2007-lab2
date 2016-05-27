@@ -11,7 +11,26 @@ namespace comp_2007_lab2.User_Control
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            SetActivePage();
+        }
+        /**
+        * This method adds a css class of "active" to list items related
+        * to navigation links of each page 
+        * 
+        * @method SetActivePage
+        * @return {void}
+        */
+        private void SetActivePage()
+        {
+            switch (Page.Title)
+            {
+                case "Home Page":
+                    home.Attributes.Add("class", "active");
+                    break;
+                case "Contact":
+                    contact.Attributes.Add("class", "active");
+                    break;
+            }
         }
     }
 }
