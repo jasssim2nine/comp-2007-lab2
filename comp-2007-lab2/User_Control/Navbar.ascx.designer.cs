@@ -7,18 +7,27 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace comp_2007_lab2 {
+namespace comp_2007_lab2.User_Control {
     
     
-    public partial class Default {
+    public partial class Navbar {
         
         /// <summary>
-        /// Jumbotron control.
+        /// home control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::comp_2007_lab2.User_Control.Jumbotron Jumbotron;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
+        
+        /// <summary>
+        /// contact control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl contact;
     }
 }

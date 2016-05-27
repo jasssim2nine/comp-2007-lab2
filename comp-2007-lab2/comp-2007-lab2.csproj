@@ -97,6 +97,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="User_Control\Jumbotron.ascx" />
+    <Content Include="User_Control\Navbar.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +117,20 @@
       <DependentUpon>Frontend.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User_Control\Jumbotron.ascx.cs">
+      <DependentUpon>Jumbotron.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Control\Jumbotron.ascx.designer.cs">
+      <DependentUpon>Jumbotron.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Control\Navbar.ascx.cs">
+      <DependentUpon>Navbar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Control\Navbar.ascx.designer.cs">
+      <DependentUpon>Navbar.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
